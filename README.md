@@ -21,11 +21,11 @@ This repository contains resources and code for data extraction, transformation,
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/data-etl-dbt-ml.git
+    git clone https://github.com/yashahhhax/Data-ETL-with-DBT.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd data-etl-dbt-ml
+    cd Data-ETL-with-DBT
     ```
 3. Refer to the README files in `/dbt_project_old`, `Data-Insights`, and `ETL` for specific setup and usage instructions.
 
@@ -38,5 +38,3 @@ Contributions are welcome! Please open an issue or submit a pull request for imp
 This project is licensed under the MIT License.
 
 ---
-
-*Customize this README as needed to reflect your project's unique details.*
