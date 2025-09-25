@@ -1,0 +1,27 @@
+version: 2
+
+sources:
+  - name: Texi_data
+    schema: public
+    tables:
+      - name: Texi_data
+        description: "Source table for analytics"
+
+models:
+  - name: core_texi
+    description: "Transformed NYC taxi trips with calculated fields"
+    columns:
+      - name: unique_id
+        description: "Unique hash for each trip"
+        tests:
+          - not_null
+          - unique
+      - name: trip_duration_minutes
+        description: "Duration of trip in minutes"
+        tests:
+          - not_null
+          - custom_positive_test
+      - name: avg_speed_mph
+        description: "Average trip speed in MPH"
+        tests:
+          - custom_speed_limit

@@ -1,0 +1,21 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+Scripts/
+Include/
+etc/
+data/
+Lib/
+share/
+pyvenv.cfg
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.egg-info/
+.installed.cfg
+*.egg
+.env
+.env.*
+.venv
+.venv.*
